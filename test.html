@@ -10,7 +10,7 @@
   <button id="sendBtn">发送</button>
   <div id="recv"></div>
   <script>
-    var websocket = new WebSocket("ws://echo.websocket.org/")
+    var websocket = new WebSocket("ws://localhost:8001/")
     websocket.onopen = function (){
       console.log('connected')
     }
